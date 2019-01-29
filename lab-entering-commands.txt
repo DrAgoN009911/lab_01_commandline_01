@@ -17,7 +17,11 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Applications		Library			
+Creative Cloud Files	Movies			
+Desktop			Music			
+Documents		Pictures		
+Downloads		Public
 
 
 ==========
@@ -27,19 +31,20 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Nothing
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
+Kyles-Air:~ kyleholston$ ls D
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: D: No such file or directory
 
 
 ==========
@@ -49,6 +54,39 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
+total 99488
+drwxr-xr-x   6 kyleholston  staff       204 Dec 11 13:16 Adobe
+-rw-r--r--@  1 kyleholston  staff     42020 Jul 30  2018 Cover letter.pdf
+-rw-r--r--   1 kyleholston  staff   2348016 Nov  8 01:35 Eminem - Remind Me (Intro)-2.wav
+-rw-r--r--@  1 kyleholston  staff    430122 Sep 25 21:37 Entertainment Technology ("Sing Faster").pages
+-rw-r--r--@  1 kyleholston  staff     44983 Sep 13 20:35 Entertainment Technology ("Sing Faster").pdf
+-rw-r--r--@  1 kyleholston  staff    373572 Oct  7 11:45 Flower and Vase Homework.ai
+-rw-r--r--@  1 kyleholston  staff    395474 Oct  9 22:40 Flower and Vase- Kyle holston.ai
+-rw-r--r--@  1 kyleholston  staff    387728 Oct 10 10:05 Flower and Vase- Kyle holston.pdf
+-rw-------   1 kyleholston  staff      4366 Nov  8 01:40 I Found My Mind in Connecticut.aup
+-rw-r--r--   1 kyleholston  staff  10001366 Nov  8 01:41 I Found My Mind in Connecticut.wav
+drwxrwxr-x   3 kyleholston  staff       102 Nov  8 01:40 I Found My Mind in Connecticut_data
+-rw-r--r--@  1 kyleholston  staff    372422 Oct 10 21:44 K. character.ai
+-rw-r--r--@  1 kyleholston  staff   1549302 Oct 10 21:40 K. character.eps
+-rw-r--r--@  1 kyleholston  staff   2811856 Oct 16 00:08 Kyle Holston's 3 shape homework - OpenProcessing.webarchive
+-rw-r--r--@  1 kyleholston  staff   8077277 Oct 23 10:20 Lesson 1 Fall 2018.key
+-rw-r--r--@  1 kyleholston  staff   4007679 Sep 14 11:53 Man in rain.webarchive
+drwxr-xr-x  10 kyleholston  staff       340 Dec 11 23:03 Max 8
+-rw-r--r--@  1 kyleholston  staff     45554 Sep  4 22:16 Mount rushmore.pdf
+-rw-r--r--@  1 kyleholston  staff       432 Nov 10 14:07 Shell.py
+-rw-r--r--@  1 kyleholston  staff         0 Oct  9 21:40 South America Map (Fix colors) copy.ai.pdf
+-rw-r--r--@  1 kyleholston  staff   7144850 Oct 10 20:24 Traffic .webarchive
+-rw-r--r--@  1 kyleholston  staff    472291 Oct  7 14:47 What is code?-Response.pages
+-rw-r--r--@  1 kyleholston  staff        15 Oct 23 09:33 assign statement.py
+-rw-r--r--@  1 kyleholston  staff   2295000 Oct 10 21:53 chinese-traffic-chaos-small.ai
+-rw-r--r--@  1 kyleholston  staff   4910514 Oct 10 21:53 chinese-traffic-chaos-small.eps
+-rw-r--r--@  1 kyleholston  staff     53589 Oct 10 20:25 chinese-traffic-chaos-small.jpg
+-rw-r--r--@  1 kyleholston  staff    404022 Oct  9 21:54 latin america with colors.ai
+-rw-r--r--@  1 kyleholston  staff   4204122 Oct  9 22:39 latin america with colors.pdf
+-rw-r--r--@  1 kyleholston  staff    247081 Oct  3 21:24 latin america.jpg
+-rw-r--r--@  1 kyleholston  staff      1347 Nov 14 00:28 lesson18 edited 5th try.py
+-rw-r--r--@  1 kyleholston  staff    240941 Sep 16 12:50 the-red-fort-delhi.jpg
+Kyles-Air:~ kyleholston$ 
 
 
 
@@ -59,7 +97,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.
+..
 
 
 ==========
@@ -69,7 +108,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ ls -a Documents
 
 
 ==========
@@ -79,7 +118,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l Documents
 
 
 ==========
@@ -89,7 +128,7 @@ $ ls /Vol<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Macintosh HD	Max802
 
 
 ==========
@@ -99,37 +138,38 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
+ls: doesnotexist: No such file or directory
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+Up arrow
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+-a 
+-l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+Documents
 
 
 ==========
@@ -139,6 +179,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
 
 
 
@@ -149,6 +190,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+-bash: foo: command not found
 
 
 
@@ -159,3 +201,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is the ls, the flag is the -a, the argument is the Desktop and the prompt is $.
